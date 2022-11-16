@@ -1,0 +1,94 @@
+#btnfood{
+    width: 160px;
+    height: 160px;
+}
+
+div.scroll {
+    background-color: #eaeaea;
+    width: 500px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+  }
+
+.bt1{
+    top: -176px;
+    right: 929px;
+    position: relative;
+}
+
+.bt2{
+    top: -176px;
+    right: 838px;
+    position: relative;
+}
+
+.bt3{
+    top: -177px;
+    right: 743px;
+    position: relative;
+}
+
+.bt4 {
+    top: 146px;
+    right: 1027px;
+    position: relative;
+}
+
+.bt5{
+    top: 146px;
+    right: 880px;
+    position: relative;
+}
+
+.bt6{
+    top: -492px;
+    right: -150px;
+    position: relative;
+}
+
+.bt7{
+    top: -492px;
+    right: -260px;
+    position: relative;
+}
+
+.bt8{
+    top: -492px;
+    right: -397px;
+    position: relative;
+}
+.bt9{
+    top: -101px;
+    right: -22px;
+    position: relative;
+}
+.bt10{
+    top: -101px;
+    right: -119px;
+    position: relative;
+}
+.bt11{
+    top: -101px;
+    right: -238px;
+    position: relative;
+}
+.bt12{
+    top: -102px;
+    right: -346px;
+    position: relative;
+}
+
+.btvoltarcE{
+    top: 10px;
+    right: 600px;
+    position: relative;
+}
+
+.imgLay{
+    position: relative;
+    left: 96px;
+}

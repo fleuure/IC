@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/grid.css">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="../js/comportamento.js"></script>
+  </head>
+
+  <body class="bg-dark">
+    <div class="container text-center">
+        <div class="gridMainPedir">
+
+            <div class="header">
+                <div class="gridHeader border-bottom border-start border-end border-dark">
+                    <button type="button" class="btn btn-outline-white btnHome"> <img src="../bootstrap-icons-1.9.1/house.svg" alt="Bootstrap" width="50" height="50" onclick=destinoHome()> </button>
+                    <h1 class="display-2 title">SustainableFoody</h1>
+                    <button type="button" class="btn btn-outline-white btnCart" onclick=destinoPedir()> <img src="../bootstrap-icons-1.9.1/basket.svg" alt="Bootstrap" width="50" height="50"> </button>
+                </div>
+            </div>
+
+			<div class="other">
+
+					<div class="gridEvents text-center">
+
+						<div class="formEvents text-center">
+						
+								<div id="header">
+								<div id="mesAno"></div>
+								<div>
+									<button id="backButton" class="abc">Anterior</button>
+									<button id="nextButton" class="abc">Próximo</button>
+								</div>
+								</div>
+						
+								<div id="diasSemana">
+									<div>Dom</div>
+									<div>Seg</div>
+									<div>Ter</div>
+									<div>Qua</div>
+									<div>Qui</div>
+									<div>Sex</div>
+									<div>Sab</div>
+									</div>
+							
+								<div id="calendarioEventos"></div>
+							
+						
+								<div id="reservaEventoModal">
+									<h1>Evento</h1>
+							
+									<p id="eventText"></p>
+							
+									<button id="reservaEventoButton">Reservar Mesa</button>
+									<button id="cancelarButton">Cancelar</button>
+						</div>
+						
+							<div id="modalBackDrop"></div>
+							
+							<div class="voltar">
+								<button type="button" class="btn btn-secondary btn-block" onclick=paginaDestino()><img src="../bootstrap-icons-1.9.1/arrow-left-short.svg"> Voltar</button>
+							</div>
+					</div>
+
+			</div>
+	
+    <script src="../js/eventos.js"></script>
+  </body>
+</html>
